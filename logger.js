@@ -3,6 +3,4 @@ function loging(mess) {
   console.log(mess);
 }
 
-loging("hi");
-
-module.exports.log = loging;
+module.exports = loging;
